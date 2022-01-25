@@ -44,9 +44,9 @@ body{
     influencer-section start  
 -------------------------- */
 .influencer-section{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     margin: 0 190px;
-    justify-content: space-between;
     align-items: center;
 }
 .influencer-heading{
@@ -55,7 +55,7 @@ body{
     margin-bottom: 0;
 }
 .influencer-half-width{
-    width: 40%;
+    width: 80%;
     position: relative;
 }
 .influencer-description{
@@ -89,12 +89,12 @@ body{
     margin-right: 10px;
 } 
 .influencer-circle-image{
-    margin-left: 145px;
+    margin-left: 245px;
 }
 .influencer-main-camera{
     position: absolute;
     top: 20px;
-    left: 165px;
+    left: 265px;
     /* animation: myfirst 2s linear 0.2s normal forwards; */
 }
 
@@ -117,9 +117,9 @@ body{
     logo-section start  
 -------------------------- */
 .logo-section{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
     margin: 70px 190px;
-    justify-content: space-around;
     border-style: solid none solid none;
     border-image: linear-gradient(90deg,rgba(192, 204, 218, 0.1), rgba(192, 204, 218, 0.6) , rgba(192, 204, 218, 0.1)) 1;
 }
