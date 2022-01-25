@@ -90,11 +90,13 @@ body{
 } 
 .influencer-circle-image{
     margin-left: 245px;
+    width: 80%;
 }
 .influencer-main-camera{
     position: absolute;
     top: 20px;
     left: 265px;
+    width: 75%;
     /* animation: myfirst 2s linear 0.2s normal forwards; */
 }
 
@@ -120,11 +122,16 @@ body{
     display: grid;
     grid-template-columns: repeat(7,1fr);
     margin: 70px 190px;
+    align-items: center;
+    justify-items: center;
     border-style: solid none solid none;
     border-image: linear-gradient(90deg,rgba(192, 204, 218, 0.1), rgba(192, 204, 218, 0.6) , rgba(192, 204, 218, 0.1)) 1;
 }
+.logo-section img{
+    width: 100px;
+}
 .logo-section > div{
-    padding: 35px 60px;
+    padding: 35px 0;
 }
 /*--------------------------
     logo-section end  
